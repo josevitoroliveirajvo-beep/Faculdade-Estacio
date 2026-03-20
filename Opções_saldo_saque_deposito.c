@@ -2,7 +2,7 @@
 
 int main (){
 int opção;
-float saldo = 1000,00
+float saldo = 1000.00;
 
 printf ("Escolha um opçâo: \n");
 printf ("1. Verificar saldo: \n");
@@ -13,18 +13,18 @@ scanf ("%d", &opção);
 
 switch (opção) {
 case 1:
-  printf ("Seu saldo é: R$ &f\n", saldo);
+  printf ("Seu saldo é: R$ %f\n", saldo);
 break;
 case 2:
-  printf ("Digite o banco que voçe deseja depositar\n);
-  printf ("Digite a agencia que voçe deseja depositar\n);
-  printf ("Digite a conta que voçe deseja depositar\n);
+  printf ("Digite o banco que voçe deseja depositar\n");
+  printf ("Digite a agencia que voçe deseja depositar\n");
+  printf ("Digite a conta que voçe deseja depositar\n");
 break;
 case 3:
-  printf ("Digite o valor que voçe deseja sacar\n);
+  printf ("Digite o valor que voçe deseja sacar\n");
 break;
 default:
-  printf ("Opiçâo inválida!\n);
+  printf ("Opiçâo inválida!\n");
 
 }
 
