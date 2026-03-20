@@ -4,7 +4,7 @@ int main () {
   int dia;
 
 printf ("Entre o valor do dia!\n");
-scanf ("%d", dia);
+scanf ("%d", &dia);
 
 if (dia == 1)
 {printf("Domingo\n");}
@@ -21,8 +21,6 @@ if (dia == 1)
   else if (dia == 7)
 {printf("Sábado");}
 
-default
-printf ("Não se encaixa na semana\n");
 
 
 
