@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main (){
-int opçôes;
+int opção;
 float saldo = 1000,00
 
 printf ("Escolha um opçâo: \n");
 printf ("1. Verificar saldo: \n");
 printf ("2. Fazer depósito: \n");
 printf ("3. Fazer saque: \n");
-scanf ("%d", &opçôes);
+scanf ("%d", &opção);
 
 
-switch (opçôes) {
+switch (opção) {
 case 1:
   printf ("Seu saldo é: R$ &f\n", saldo);
 break;
