@@ -6,9 +6,9 @@ int main () {
 printf ("Entre o valor do dia!\n");
 scanf ("%d", &dia);
 
-switch (dia)
+switch (dia) {
 
-case 1: {
+case 1: 
   printf("Domingo\n");
   break;
 case 2: 
@@ -30,6 +30,9 @@ case 7:
   printf("Sábado"); 
   break;
 
-
+default:
+  printf ("Dia invalido\n");
+  
 
 }
+return 0;
