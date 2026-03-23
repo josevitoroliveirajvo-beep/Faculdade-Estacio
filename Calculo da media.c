@@ -20,7 +20,7 @@ int main() {
       printf("Digite a segunda nota\n");
       scanf("%f", nota2);
       //Testar a condicao se a nota é >=0 e <=10
-      if ((nota1=>0 && nota1>=10) && (nota2=>0 && nota2>=10)) {
+      if ((nota1 >=0 && nota1 <= 10) && (nota2 >=0 && nota2 <=10)) {
       printf("Entrada correta");
       } else{
       printf("Entrada com valor errado");
