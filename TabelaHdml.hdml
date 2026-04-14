@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <table>
+		<title> Tabela </title>
+      
+   		
+    <tr> 
+    <th> Itens </th>
+    <th> Quantidade </th>
+    <th> Total </th>
+
+   <tr>
+   <td> Registro 1 </td>
+   <td> 3 </td>
+   <td> R$ 30 </td>
+	 </tr> 
+  
+  <tr> 
+  <td> Registro 2 </td>
+  <td> 2 </td>
+  <td> $ 20 </td>
+  </tr>
+  
+  </table>
+  </html>
